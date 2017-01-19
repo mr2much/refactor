@@ -7,7 +7,7 @@ public class RegularPrice extends Price {
 		return Movie.REGULAR;
 	}
 	
-	public double getCharge(int daysRented) {
+	double getCharge(int daysRented) {
 		double result = 2;
 		
 		if(daysRented > 2) {
